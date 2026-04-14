@@ -6,6 +6,8 @@
 /storage/*.key
 /storage/pail
 /vendor
+.gitignore
+.gitattributes
 .env
 .env.example
 .env.backup
