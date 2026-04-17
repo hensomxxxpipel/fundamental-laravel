@@ -21,6 +21,12 @@ Route::get('/tentangKami', function () {
     // ]);
 });
 
+Route::get('/tentangKami/{id}/detail', function($id) {
+    return view('pages.detail', [
+        'nomor' => $id
+    ]);
+});
+
 Route::get('/bisnisKami', function () {
     return view('pages.bisnisKami');
 });
